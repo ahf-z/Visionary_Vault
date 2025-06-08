@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Orbitron:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dark-terminal text-white font-terminal;
+  }
+}
+
+@layer components {
+  .terminal-window {
+    @apply bg-dark-terminal border-2 border-matrix-green rounded-lg p-4 shadow-lg;
+  }
+  
+  .cyber-button {
+    @apply px-4 py-2 bg-transparent border-2 border-cyber-blue text-cyber-blue 
+           hover:bg-cyber-blue hover:text-dark-terminal transition-all duration-300
+           font-cyber tracking-wider;
+  }
+
+  .glitch-text {
+    @apply relative text-neon-pink animate-glitch;
+  }
+
+  .terminal-cursor {
+    @apply inline-block w-2 h-4 bg-matrix-green animate-terminal-blink;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-dark-terminal;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-matrix-green;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-cyber-blue;
+}
