@@ -137,7 +137,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Neural Contact
 
-Project Link: [https://github.com/ahf-z/Visionary_Vault/Cyberpunk_portfolio](https://github.com/ahf-z/Visionary_Vault/Cyberpunk_portfolio)
+Project Link: [https://github.com/ahf-z/Visionary_Vault/tree/main/Neural_Matrix_Portfolio](https://github.com/ahf-z/Visionary_Vault/tree/main/Neural_Matrix_Portfolio)
 
 ---
 
